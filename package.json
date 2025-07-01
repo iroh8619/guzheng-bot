@@ -1,0 +1,19 @@
+{
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "express": "^4.19.2",
+    "ytdl-core": "^4.11.5",
+    "web-streams-polyfill": "^4.0.0",
+    "@discordjs/voice": "^0.17.0",
+    "readable-stream": "^4.5.2",
+    "libsodium-wrappers": "^0.7.14",
+    "dotenv": "^16.4.5",
+    "sodium-native": "^4.1.1"
+  }
+}
