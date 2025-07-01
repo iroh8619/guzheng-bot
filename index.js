@@ -61,7 +61,7 @@ client.once('ready', async () => {
   }
 });
 
-client.login('ODY1NTMyNTU1NTU3NDcwMjI5.G3tQVk.LOzOhcTIC8QHRx5uCrNU-2eJTgr6MuvxpnVODk');
+client.login(process.env.DISCORD_TOKEN);
 
 async function playStream(connection) {
   try {
